@@ -1,0 +1,78 @@
+body {
+  background-color: lightgray;
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 25px;
+  overflow: auto;
+}
+
+.product-header {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.product-remove {
+  float: right;
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 10px;
+}
+
+#total-price {
+  color: green;
+  float: right;
+}
+
+.form-block {
+  margin-bottom: 10px;
+}
+a.card-link:hover {
+    text-decoration: none;
+    color: #000;
+  }
+a.card-link {
+    text-decoration: none;
+    color: #000;
+  }  
+.form-block label,
+.form-block input {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.form-block input[type="submit"] {
+  width: auto;
+}
+
+.body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-right {
+  float: right;
+  text-align: right;
+}
